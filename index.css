@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 300rem;
+    width: 100%;
+}
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+html{
+    font-size: 62.5%;
+}
+
+#particles-js{
+    background: #222831;
+    overflow: hidden;
+    height: 100vh ;
+}
+
+.topBar{
+    display: flex;
+    background: #222831;
+    justify-content: space-between;
+    position:fixed;
+    width: 100vw;
+    height: 10%;
+    z-index: 3;
+}
+.section1{
+    height: auto;
+    overflow: hidden;
+}
+
+.navButtons{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: large;
+    margin-left: 1rem;
+    margin-right: 3rem;     
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.navButtons:hover{
+    cursor: pointer;
+    color: #ffc2b4;
+    border: .1rem solid #ffc2b4;
+    border-radius: 1rem;
+}
+
+.logoImage{
+    margin-left: 2%;
+    margin-top: 1%;
+    
+}
+
+.logoImage:hover{
+    cursor: pointer;
+}
+
+.introduction{
+    /* background: rgba(157, 190, 185,0.5); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    height: 35rem;
+    width: 60rem;
+    top: 0;
+    margin-left: 28%;
+    margin-top: 10%;
+    border-radius: 10rem;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+.AboutMeLink{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.animated-button{
+    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0.4rem solid #ffc2b4 ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-family:sans-serif ;
+}
+
+.animated-button:hover{
+    background: rgba(255, 194, 180,0.5);
+   
+}
+.AboutMe{
+    height: 110vh;
+    background: rgba(254, 254, 204,0.7);
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.HeadingAboutMe{
+    margin-top: 10%;
+    padding-top: 4rem;
+    height: 2rem;
+    font-family: 'Gentium Basic', serif;
+}
+.headbar{
+    border-top: .3rem solid #222831;
+    width : 50%;
+    margin-left: 20%;
+    margin-top: 5rem;
+}
+.AboutMeText{
+    height: 20%;
+    width: 50%;
+    margin-top: 2rem;
+    padding-top: 0.5%;
+    /* background: chocolate; */
+    text-align: center;
+    color: #5b6d5b;
+    line-height: 1.6;
+    font-family: 'Gentium Basic', serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.mainBox{
+    display: flex;
+    width: 80%;
+    /* background : blue; */
+    height: 70rem;
+    margin-top: 5%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Box{
+    width: 30%;
+    background:rgba(247, 168, 150,0.5) ;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.listFrontEnd{
+    list-style: none;
+    text-align: center;
+    margin-right: 5rem;
+}
+.Resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* background: rgba(238, 130, 238,0.5); */
+}
+.headbar2{
+    border-top: .3rem solid #222831;
+    width : 30%;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 0rem;
+}
+.btn-three {
+    color:rgb(210, 105, 30);
+    transition: all 0.5s;
+    position: relative;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  .btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(210, 105, 30,0.1);
+    transition: all 0.3s;
+
+  }
+  .btn-three:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transition: all 0.3s;
+    border: .1rem solid rgba(210, 105, 30,0.5);
+    transform: scale(1.2,1.2);
+  }
+  .btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+}
+.btn {
+    cursor: pointer;
+  }
+  
+.ContactMeSection{
+    height: 100vh;
+    background: #222831;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headbar3{
+    position: relative;
+    width: 40%;
+    margin-top: 5rem;
+    color: #ffc2b4;
+    background: #ffc2b4;
+}
+.fa {
+    padding: 3rem;
+    font-size: .2rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: .5rem .2rem;
+    /* border-radius: 50%; */
+}
+.fa:hover{
+    cursor: pointer;
+    color: #ffc2b4;
+}
+  .fa-linkedin {
+    background: none;
+    color: white;
+    height: 10rem;
+}
+.fa-instagram {
+    background:none;
+    color: white;
+}
+
+.fa-google{
+    color: white;
+}
+  
+.fa-github{
+    color: white;
+}

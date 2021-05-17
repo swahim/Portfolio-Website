@@ -1,0 +1,204 @@
+/* @media screen and (max-width : 1024px){
+    .introduction{
+        height: 100vh;
+        width: auto;
+        
+    }
+    .AboutMeText{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width : 811px) {
+    .AboutMeText{
+        font-size: medium;
+    }
+    #BackEndBox{
+        margin-top: 50px;
+    }
+    #FrontEndBox{
+        margin-top: 30px;
+    }
+    #designerBox{
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width : 721px) {
+    .Box{
+        height: 500px;
+    }
+    .ListMedia{
+        margin-bottom: 40px;
+        margin-top: auto;
+    }
+}
+
+@media screen and (max-width : 690px) {
+     
+} */
+
+@media  screen and (max-width : 1400px) {
+    html{
+        font-size: 50%;
+    }
+
+}
+
+@media screen and (max-width : 1300px) {
+    html{
+        font-size: 48%;
+    }
+    .AboutMeText{
+        width: 60%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .AboutMeText{
+        width: 70%;
+        /* margin-bottom: 2%; */
+    }
+    .logoImage{
+        width: 6%;
+    }
+    .Resume{
+        margin-top: 10%;
+        height: 70vh;
+    }
+    .introduction{
+        margin-top: 30%;
+    }
+    .logoImage{
+        width: 8rem;
+        margin-bottom: 5%;
+    }
+    .topBar{
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    html{
+        font-size: 40%;
+    }
+    .logoImage{
+        width: 6%;
+    }
+    .navButtons{
+        font-size: 2rem;
+    }
+    .ContactMeSection{
+        height: 80vh;
+    }
+    .introduction{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 20%;
+        /* overflow: visible; */
+    }
+    .Resume{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .Box{
+        height: 80%;
+    }
+    .topBar{
+        height: 8%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    html{
+        font-size: 35%;
+    }
+    .Resume{
+        height: 70vh;
+    }
+    .AboutMe{
+        height: 80vh;
+    }
+    .HeadingAboutMe{
+        margin-top: 10%;
+    }
+    .mainBox{
+        margin-top: 5%;
+    }
+    .Box{
+        height: auto;
+    }
+    .logoImage{
+        width: 7%;
+        margin-left: 5%;
+    }
+    .topBar{
+        height: 7%;
+        position: fixed;
+    }
+    #particles-js{
+        height: 100vh;
+        width: 100%;
+    }
+    .ContactMeSection{
+        height: 70vh;
+    }
+    .textResume{
+        width: 70%;
+    }
+    .HeadingResume{
+        font-size: 4.3rem;
+    }
+    .introduction{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .HeadingResume{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    .textResume{
+        width: 80%;
+        text-align: center;
+    }
+    .AboutMeText{
+        width: 80%;
+    }
+    .introduction{
+        margin-top: 50%;
+    }
+    .ContactMeSection{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    html{
+        font-size: 30%;
+    }
+    #particles-js{
+        height: 100vh;
+    }
+    .AboutMe{
+        height: 70vh;
+    }
+    .logoImage{
+        width: auto;
+        height: auto;
+    }
+    .ContactMeSection{
+        height: 60vh;
+    }
+    .textContactMe{
+        width: 80%;
+        height: 80vh;
+    }
+    .introduction{
+        margin-top: 50%;
+    }
+}
