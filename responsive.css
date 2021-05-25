@@ -42,7 +42,9 @@
     html{
         font-size: 50%;
     }
-
+    .projectDescription{
+        margin-top: -4%;
+    }
 }
 
 @media screen and (max-width : 1300px) {
@@ -52,6 +54,9 @@
     .AboutMeText{
         width: 60%;
         margin-bottom: 2%;
+    }
+    .projectDescription{
+        margin-top: -7%;
     }
 }
 
@@ -77,6 +82,17 @@
     .topBar{
         height: auto;
     }
+    .projectDescription{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    #sectionProjects{
+        height: 80vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        
+    }
 }
 
 @media screen and (max-width : 700px) {
@@ -101,6 +117,17 @@
     .Resume{
         height: 100vh;
     }
+    .projectDescription{
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    #sectionProjects{
+        height: 70vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        
+    }
 }
 
 @media screen and (max-width : 650px) {
@@ -109,6 +136,17 @@
     }
     .topBar{
         height: 8%;
+    }
+    .projectDescription{
+        margin-top: -10%;
+        margin-left: 0%;
+    }
+    #sectionProjects{
+        height: 80vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        margin-left : -10%;
     }
 }
 
@@ -155,6 +193,20 @@
     .introduction{
         width: 50%;
     }
+    .projectDescription{
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+    #sectionProjects{
+        height: 60vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        margin-left : -15%;
+    }
+    .project1{
+        margin-left: -10%;
+    }
 }
 
 @media screen and (max-width : 400px) {
@@ -174,6 +226,21 @@
     }
     .ContactMeSection{
         height: 60vh;
+    }
+    .projectDescription{
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+    #sectionProjects{
+        height: 70vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        margin-left: -10%;
+    }
+    .project1{
+        margin-left: -10%;
+        height: 50rem;
     }
 }
 
@@ -200,5 +267,16 @@
     }
     .introduction{
         margin-top: 50%;
+    }
+    .projectDescription{
+        margin-top: -2%;
+        margin-left: 2%;
+    }
+    #sectionProjects{
+        height: 50vh;
+    }
+    .displayProjects{
+        margin-top: 4%;
+        margin-left: -35%;
     }
 }
